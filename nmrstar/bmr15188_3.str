@@ -1,0 +1,1670 @@
+data_15188
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            15188
+   _Entry.Title                       
+;
+backbone and side chain methly order parameters and correlation times for calcium-saturated calmodulin
+;
+   _Entry.Type                          macromolecule
+   _Entry.Version_type                  original
+   _Entry.Submission_date               2007-03-19
+   _Entry.Accession_date                2007-03-19
+   _Entry.Last_release_date             .
+   _Entry.Original_release_date         .
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.1.61
+   _Entry.Original_NMR_STAR_version     .
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   solution
+   _Entry.Details                       .
+   _Entry.BMRB_internal_directory_name  .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+     1   Kendra     Frederick   .   K.   .   15188    
+     2   Michael    Marlow      .   S.   .   15188    
+     3   Kathleen   Valentine   .   G.   .   15188    
+     4   Joshua     Wand        .   .    .   15188    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   .   'Wand group, University of Pennsylvania'   .   15188    
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+     order_parameters   2   15188    
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+     'order parameters'   134   15188    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     3   .   .   2011-03-28   2011-03-27   update     BMRB     
+;
+Inserted tags and values for Tau e, f, and s units
+corrected atom nomenclature in the side chain methyl order parameter save frame
+;
+15188    
+     2   .   .   2009-01-29   2007-03-19   update     BMRB     'correction of residue codes'                                                                                                         15188    
+     1   .   .   2007-10-05   2007-03-19   original   author   'original release'                                                                                                                    15188    
+
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+     BMRB   15183   CaM/CaMKKap             15188    
+     BMRB   15184   CaM/CaMK1p              15188    
+     BMRB   15185   Cam/eNOSp               15188    
+     BMRB   15186   Cam/smMLCKp             15188    
+     BMRB   15187   CaM/PDEs                15188    
+     BMRB   6541    'Ca-bound calmodulin'   15188    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                 citations
+   _Citation.Sf_framecode                entry_citation
+   _Citation.Entry_ID                    15188
+   _Citation.ID                          1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code           .
+   _Citation.MEDLINE_UI_code             .
+   _Citation.DOI                         .
+   _Citation.PubMed_ID                   17637663
+   _Citation.Full_citation               .
+   _Citation.Title                       'Conformational entropy in molecular recognition by proteins'
+   _Citation.Status                      published
+   _Citation.Type                        journal
+   _Citation.Journal_abbrev              Nature
+   _Citation.Journal_name_full           .
+   _Citation.Journal_volume              448
+   _Citation.Journal_issue               7151
+   _Citation.Journal_ASTM                .
+   _Citation.Journal_ISSN                .
+   _Citation.Journal_CSD                 .
+   _Citation.Book_title                  .
+   _Citation.Book_chapter_title          .
+   _Citation.Book_volume                 .
+   _Citation.Book_series                 .
+   _Citation.Book_publisher              .
+   _Citation.Book_publisher_city         .
+   _Citation.Book_ISBN                   .
+   _Citation.Conference_title            .
+   _Citation.Conference_site             .
+   _Citation.Conference_state_province   .
+   _Citation.Conference_country          .
+   _Citation.Conference_start_date       .
+   _Citation.Conference_end_date         .
+   _Citation.Conference_abstract_number  .
+   _Citation.Thesis_institution          .
+   _Citation.Thesis_institution_city     .
+   _Citation.Thesis_institution_country  .
+   _Citation.WWW_URL                     .
+   _Citation.Page_first                  325
+   _Citation.Page_last                   329
+   _Citation.Year                        2007
+   _Citation.Details                     .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1   Kendra     Frederick   .   K.   .   15188   1    
+     2   Michael    Marlow      .   S.   .   15188   1    
+     3   Kathleen   Valentine   .   G.   .   15188   1    
+     4   Joshua     Wand        .   .    .   15188   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                      assembly
+   _Assembly.Sf_framecode                     assembly
+   _Assembly.Entry_ID                         15188
+   _Assembly.ID                               1
+   _Assembly.Name                             calmodulin
+   _Assembly.BMRB_code                        .
+   _Assembly.Number_of_components             .
+   _Assembly.Organic_ligands                  .
+   _Assembly.Metal_ions                       .
+   _Assembly.Non_standard_bonds               .
+   _Assembly.Ambiguous_conformational_states  .
+   _Assembly.Ambiguous_chem_comp_sites        .
+   _Assembly.Molecules_in_chemical_exchange   .
+   _Assembly.Paramagnetic                     no
+   _Assembly.Thiol_state                      .
+   _Assembly.Molecular_mass                   .
+   _Assembly.Enzyme_commission_number         .
+   _Assembly.Details                          .
+   _Assembly.DB_query_date                    .
+   _Assembly.DB_query_revised_last_date       .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   calmodulin   1   $calmodulin   A   .   yes   native   no   no   .   .   .   15188   1    
+
+   stop_
+
+   loop_
+      _Assembly_db_link.Author_supplied
+      _Assembly_db_link.Database_code
+      _Assembly_db_link.Accession_code
+      _Assembly_db_link.Entry_mol_code
+      _Assembly_db_link.Entry_mol_name
+      _Assembly_db_link.Entry_experimental_method
+      _Assembly_db_link.Entry_structure_resolution
+      _Assembly_db_link.Entry_relation_type
+      _Assembly_db_link.Entry_details
+      _Assembly_db_link.Entry_ID
+      _Assembly_db_link.Assembly_ID
+
+     yes   PDB   3CLN   .   .   X-ray   2.2   .   .   15188   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_calmodulin
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     calmodulin
+   _Entity.Entry_ID                         15188
+   _Entity.ID                               1
+   _Entity.BMRB_code                        .
+   _Entity.Name                             calmodulin
+   _Entity.Type                             polymer
+   _Entity.Polymer_common_type              .
+   _Entity.Polymer_type                     polypeptide(L)
+   _Entity.Polymer_type_details             .
+   _Entity.Polymer_strand_ID                .
+   _Entity.Polymer_seq_one_letter_code_can  .
+   _Entity.Polymer_seq_one_letter_code    
+;
+ADQLTEEQIAEFKEAFSLFD
+KDGDGTITTKELGTVMRSLG
+QNPTEAELQDMINEVDADGN
+GTIDFPEFLTMMARKMKDTD
+SEEEIREAFRVFDKDGNGYI
+SAAELRHVMTNLGEKLTDEQ
+VDEMIREADIDGDGQVNYEE
+FVQMMTAK
+;
+   _Entity.Target_identifier                .
+   _Entity.Polymer_author_defined_seq       .
+   _Entity.Polymer_author_seq_details       .
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Nonpolymer_comp_ID               .
+   _Entity.Nonpolymer_comp_label            .
+   _Entity.Number_of_monomers               148
+   _Entity.Number_of_nonpolymer_components  .
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                       .
+   _Entity.Parent_entity_ID                 .
+   _Entity.Fragment                         .
+   _Entity.Mutation                         .
+   _Entity.EC_number                        .
+   _Entity.Calc_isoelectric_point           .
+   _Entity.Formula_weight                   .
+   _Entity.Formula_weight_exptl             .
+   _Entity.Formula_weight_exptl_meth        .
+   _Entity.Details                          .
+   _Entity.DB_query_date                    .
+   _Entity.DB_query_revised_last_date       2015-11-26
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+     1     no   BMRB   15184          .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     2     no   BMRB   15185          .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     3     no   BMRB   15186          .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     4     no   BMRB   15187          .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     5     no   BMRB   15191          .   Calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     6     no   BMRB   15470          .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   98.65   100.00   4.87e-99    .   .   .   .   15188   1    
+     7     no   BMRB   15624          .   Calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     8     no   BMRB   15650          .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   98.65   100.00   7.70e-99    .   .   .   .   15188   1    
+     9     no   BMRB   15852          .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   98.65   100.00   7.70e-99    .   .   .   .   15188   1    
+     10    no   BMRB   16418          .   apoCaM                                                                                                                              .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     11    no   BMRB   16465          .   entity_1                                                                                                                            .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     12    no   BMRB   16764          .   CALMODULIN                                                                                                                          .   .   .   .   .   100.00   150   99.32   100.00   1.04e-99    .   .   .   .   15188   1    
+     13    no   BMRB   17264          .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     14    no   BMRB   17360          .   entity_1                                                                                                                            .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     15    no   BMRB   17771          .   Calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     16    no   BMRB   17807          .   Calmodulin                                                                                                                          .   .   .   .   .   99.32    147   99.32   100.00   6.12e-99    .   .   .   .   15188   1    
+     17    no   BMRB   18027          .   CaM                                                                                                                                 .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     18    no   BMRB   18028          .   CaM                                                                                                                                 .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     19    no   BMRB   18556          .   Calmodulin                                                                                                                          .   .   .   .   .   100.00   148   97.97   99.32    5.38e-98    .   .   .   .   15188   1    
+     20    no   BMRB   19036          .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     21    no   BMRB   19238          .   Calmodulin_prototypical_calcium_sensor                                                                                              .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     22    no   BMRB   19586          .   entity_1                                                                                                                            .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     23    no   BMRB   19604          .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     24    no   BMRB   25253          .   CaM                                                                                                                                 .   .   .   .   .   100.00   148   97.97   99.32    2.80e-97    .   .   .   .   15188   1    
+     25    no   BMRB   25257          .   CaM                                                                                                                                 .   .   .   .   .   100.00   148   97.97   99.32    2.80e-97    .   .   .   .   15188   1    
+     26    no   BMRB   26503          .   Calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     27    no   BMRB   26626          .   CaM                                                                                                                                 .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     28    no   BMRB   26627          .   CaM                                                                                                                                 .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     29    no   BMRB   4056           .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     30    no   BMRB   4270           .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     31    no   BMRB   4284           .   Calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     32    no   BMRB   4310           .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     33    no   PDB    1A29           .   'Calmodulin Complexed With Trifluoperazine (1:2 Complex)'                                                                           .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     34    no   PDB    1CFC           .   'Calcium-Free Calmodulin'                                                                                                           .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     35    no   PDB    1CFD           .   'Calcium-Free Calmodulin'                                                                                                           .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     36    no   PDB    1CFF           .   'Nmr Solution Structure Of A Complex Of Calmodulin With A Binding Peptide Of The Ca2+-Pump'                                         .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     37    no   PDB    1CKK           .   'CalmodulinRAT CA2+CALMODULIN DEPENDENT PROTEIN KINASE Fragment'                                                                    .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     38    no   PDB    1CLL           .   'Calmodulin Structure Refined At 1.7 Angstroms Resolution'                                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     39    no   PDB    1CM1           .   'Motions Of Calmodulin-Single-Conformer Refinement'                                                                                 .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     40    no   PDB    1CM4           .   'Motions Of Calmodulin-four-conformer Refinement'                                                                                   .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     41    no   PDB    1CTR           .   'Drug Binding By Calmodulin: Crystal Structure Of A Calmodulin-Trifluoperazine Complex'                                             .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     42    no   PDB    1DMO           .   'Calmodulin, Nmr, 30 Structures'                                                                                                    .   .   .   .   .   100.00   148   98.65   100.00   4.87e-99    .   .   .   .   15188   1    
+     43    no   PDB    1G4Y           .   '1.60 A Crystal Structure Of The Gating Domain From Small Conductance Potassium Channel Complexed With Calcium-Calmodulin'          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     44    no   PDB    1IQ5           .   'CalmodulinNEMATODE CA2+CALMODULIN DEPENDENT KINASE KINASE Fragment'                                                                .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     45    no   PDB    1IWQ           .   'Crystal Structure Of Marcks Calmodulin Binding Domain Peptide Complexed With Ca2+CALMODULIN'                                       .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     46    no   PDB    1K90           .   "Crystal Structure Of The Adenylyl Cyclase Domain Of Anthrax Edema Factor (Ef) In Complex With Calmodulin And 3' Deoxy-Atp"         .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     47    no   PDB    1K93           .   'Crystal Structure Of The Adenylyl Cyclase Domain Of Anthrax Edema Factor (Ef) In Complex With Calmodulin'                          .   .   .   .   .   97.30    144   99.31   100.00   1.14e-96    .   .   .   .   15188   1    
+     48    no   PDB    1L7Z           .   'Crystal Structure Of Ca2+/calmodulin Complexed With Myristoylated Cap-23/nap-22 Peptide'                                           .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     49    no   PDB    1LIN           .   'Calmodulin Complexed With Trifluoperazine (1:4 Complex)'                                                                           .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     50    no   PDB    1LVC           .   "Crystal Structure Of The Adenylyl Cyclase Domain Of Anthrax Edema Factor (Ef) In Complex With Calmodulin And 2' Deoxy, 3' Anthr"   .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     51    no   PDB    1MUX           .   'Solution Nmr Structure Of CalmodulinW-7 Complex: The Basis Of Diversity In Molecular Recognition, 30 Structures'                   .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     52    no   PDB    1MXE           .   'Structure Of The Complex Of Calmodulin With The Target Sequence Of Camki'                                                          .   .   .   .   .   100.00   148   97.30   99.32    1.26e-97    .   .   .   .   15188   1    
+     53    no   PDB    1NWD           .   'Solution Structure Of Ca2+CALMODULIN BOUND TO THE C- Terminal Domain Of Petunia Glutamate Decarboxylase'                           .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     54    no   PDB    1OOJ           .   'Structural Genomics Of Caenorhabditis Elegans : Calmodulin'                                                                        .   .   .   .   .   100.00   149   97.30   98.65    3.64e-97    .   .   .   .   15188   1    
+     55    no   PDB    1PRW           .   'Crystal Structure Of Bovine Brain Ca++ Calmodulin In A Compact Form'                                                               .   .   .   .   .   100.00   149   98.65   99.32    1.01e-98    .   .   .   .   15188   1    
+     56    no   PDB    1QIV           .   "Calmodulin Complexed With N-(3,3,-Diphenylpropyl)-N'-[1-R-( 3,4-Bis-Butoxyphenyl)-Ethyl]-Propylenediamine (Dpd), 1:2 Complex"      .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     57    no   PDB    1QIW           .   "Calmodulin Complexed With N-(3,3,-Diphenylpropyl)-N'-[1-R-( 3,4-Bis-Butoxyphenyl)-Ethyl]-Propylenediamine (Dpd)"                   .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     58    no   PDB    1QX5           .   'Crystal Structure Of Apocalmodulin'                                                                                                .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     59    no   PDB    1S26           .   "Structure Of Anthrax Edema Factor-calmodulin-alpha,beta- Methyleneadenosine 5'-triphosphate Complex Reveals An Alternative Mode"   .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     60    no   PDB    1SK6           .   "Crystal Structure Of The Adenylyl Cyclase Domain Of Anthrax Edema Factor (Ef) In Complex With Calmodulin, 3',5' Cyclic Amp (Cam"   .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     61    no   PDB    1SY9           .   'Structure Of Calmodulin Complexed With A Fragment Of The Olfactory Cng Channel'                                                    .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     62    no   PDB    1UP5           .   'Chicken Calmodulin'                                                                                                                .   .   .   .   .   100.00   148   98.65   99.32    9.79e-99    .   .   .   .   15188   1    
+     63    no   PDB    1WRZ           .   'Calmodulin Complexed With A Peptide From A Human Death-Associated Protein Kinase'                                                  .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     64    no   PDB    1X02           .   'Solution Structure Of Stereo Array Isotope Labeled (Sail) Calmodulin'                                                              .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     65    no   PDB    1XA5           .   'Structure Of Calmodulin In Complex With Kar-2, A Bis-Indol Alkaloid'                                                               .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     66    no   PDB    1XFU           .   'Crystal Structure Of Anthrax Edema Factor (ef) Truncation Mutant, Ef-delta 64 In Complex With Calmodulin'                          .   .   .   .   .   100.00   149   98.65   100.00   3.51e-99    .   .   .   .   15188   1    
+     67    no   PDB    1XFV           .   "Crystal Structure Of Anthrax Edema Factor (Ef) In Complex With Calmodulin And 3' Deoxy-Atp"                                        .   .   .   .   .   100.00   149   98.65   100.00   3.51e-99    .   .   .   .   15188   1    
+     68    no   PDB    1XFW           .   "Crystal Structure Of Anthrax Edema Factor (Ef) In Complex With Calmodulin And 3'5' Cyclic Amp (Camp)"                              .   .   .   .   .   100.00   149   98.65   100.00   3.51e-99    .   .   .   .   15188   1    
+     69    no   PDB    1XFY           .   'Crystal Structure Of Anthrax Edema Factor (Ef) In Complex With Calmodulin'                                                         .   .   .   .   .   100.00   149   98.65   100.00   3.51e-99    .   .   .   .   15188   1    
+     70    no   PDB    1XFZ           .   'Crystal Structure Of Anthrax Edema Factor (ef) In Complex With Calmodulin In The Presence Of 1 Millimolar Exogenously Added Cal'   .   .   .   .   .   100.00   149   98.65   100.00   3.51e-99    .   .   .   .   15188   1    
+     71    no   PDB    1Y0V           .   'Crystal Structure Of Anthrax Edema Factor (Ef) In Complex With Calmodulin And Pyrophosphate'                                       .   .   .   .   .   97.30    146   99.31   100.00   9.51e-97    .   .   .   .   15188   1    
+     72    no   PDB    1YR5           .   '1.7-A Structure Of Calmodulin Bound To A Peptide From Dap Kinase'                                                                  .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     73    no   PDB    2BBM           .   'Solution Structure Of A Calmodulin-Target Peptide Complex By Multidimensional Nmr'                                                 .   .   .   .   .   100.00   148   97.30   99.32    1.26e-97    .   .   .   .   15188   1    
+     74    no   PDB    2BBN           .   'Solution Structure Of A Calmodulin-Target Peptide Complex By Multidimensional Nmr'                                                 .   .   .   .   .   100.00   148   97.30   99.32    1.26e-97    .   .   .   .   15188   1    
+     75    no   PDB    2BCX           .   'Crystal Structure Of Calmodulin In Complex With A Ryanodine Receptor Peptide'                                                      .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     76    no   PDB    2BKH           .   'Myosin Vi Nucleotide-Free (Mdinsert2) Crystal Structure'                                                                           .   .   .   .   .   100.00   149   97.30   99.32    1.39e-97    .   .   .   .   15188   1    
+     77    no   PDB    2BKI           .   'Myosin Vi Nucleotide-free (mdinsert2-iq) Crystal Structure'                                                                        .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     78    no   PDB    2DFS           .   '3-D Structure Of Myosin-V Inhibited State'                                                                                         .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     79    no   PDB    2F2O           .   'Structure Of Calmodulin Bound To A Calcineurin Peptide: A New Way Of Making An Old Binding Mode'                                   .   .   .   .   .   100.00   179   99.32   100.00   2.11e-99    .   .   .   .   15188   1    
+     80    no   PDB    2F2P           .   'Structure Of Calmodulin Bound To A Calcineurin Peptide: A New Way Of Making An Old Binding Mode'                                   .   .   .   .   .   100.00   179   99.32   100.00   2.11e-99    .   .   .   .   15188   1    
+     81    no   PDB    2F3Y           .   'CalmodulinIQ DOMAIN COMPLEX'                                                                                                       .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     82    no   PDB    2F3Z           .   'CalmodulinIQ-Aa Domain Complex'                                                                                                    .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     83    no   PDB    2FOT           .   'Crystal Structure Of The Complex Between Calmodulin And Alphaii-Spectrin'                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     84    no   PDB    2HQW           .   'Crystal Structure Of Ca2+CALMODULIN BOUND TO NMDA RECEPTOR NR1C1 Peptide'                                                          .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     85    no   PDB    2JZI           .   'Structure Of Calmodulin Complexed With The Calmodulin Binding Domain Of Calcineurin'                                               .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     86    no   PDB    2K0E           .   'A Coupled Equilibrium Shift Mechanism In Calmodulin- Mediated Signal Transduction'                                                 .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     87    no   PDB    2K0F           .   'Calmodulin Complexed With Calmodulin-Binding Peptide From Smooth Muscle Myosin Light Chain Kinase'                                 .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     88    no   PDB    2K0J           .   'Solution Structure Of Cam Complexed To Drp1p'                                                                                      .   .   .   .   .   100.00   148   98.65   100.00   7.70e-99    .   .   .   .   15188   1    
+     89    no   PDB    2K61           .   'Solution Structure Of Cam Complexed To Dapk Peptide'                                                                               .   .   .   .   .   100.00   148   98.65   100.00   7.70e-99    .   .   .   .   15188   1    
+     90    no   PDB    2KDU           .   'Structural Basis Of The Munc13-1CA2+-Calmodulin Interaction: A Novel 1-26 Calmodulin Binding Motif With A Bipartite Binding Mod'   .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     91    no   PDB    2KNE           .   'Calmodulin Wraps Around Its Binding Domain In The Plasma Membrane Ca2+ Pump Anchored By A Novel 18-1 Motif'                        .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     92    no   PDB    2L53           .   'Solution Nmr Structure Of Apo-Calmodulin In Complex With The Iq Motif Of Human Cardiac Sodium Channel Nav1.5'                      .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     93    no   PDB    2L7L           .   'Solution Structure Of Ca2+CALMODULIN COMPLEXED WITH A PEPTIDE Representing The Calmodulin-Binding Domain Of Calmodulin Kinase I'   .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     94    no   PDB    2LGF           .   'Solution Structure Of Ca2+CALMODULIN COMPLEXED WITH A PEPTIDE Representing The Calmodulin-Binding Domain Of L-Selectin'            .   .   .   .   .   98.65    146   99.32   100.00   2.56e-98    .   .   .   .   15188   1    
+     95    no   PDB    2LL6           .   'Solution Nmr Structure Of Cam Bound To Inos Cam Binding Domain Peptide'                                                            .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     96    no   PDB    2LL7           .   'Solution Nmr Structure Of Cam Bound To The Enos Cam Binding Domain Peptide'                                                        .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     97    no   PDB    2LV6           .   'The Complex Between Ca-calmodulin And Skeletal Muscle Myosin Light Chain Kinase From Combination Of Nmr And Aqueous And Contras'   .   .   .   .   .   100.00   148   97.97   99.32    5.38e-98    .   .   .   .   15188   1    
+     98    no   PDB    2M0J           .   '3d Structure Of Calmodulin And Calmodulin Binding Domain Of Olfactory Cyclic Nucleotide-gated Ion Channel Complex'                 .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     99    no   PDB    2M0K           .   '3d Structure Of Calmodulin And Calmodulin Binding Domain Of Rat Olfactory Cyclic Nucleotide-gated Ion Channel'                     .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     100   no   PDB    2M55           .   'Nmr Structure Of The Complex Of An N-terminally Acetylated Alpha- Synuclein Peptide With Calmodulin'                               .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     101   no   PDB    2MG5           .   'Solution Structure Of Calmodulin Bound To The Target Peptide Of Endothelial Nitrogen Oxide Synthase Phosphorylated At Thr495'      .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     102   no   PDB    2MGU           .   'Structure Of The Complex Between Calmodulin And The Binding Domain Of Hiv-1 Matrix Protein'                                        .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     103   no   PDB    2O5G           .   'Calmodulin-Smooth Muscle Light Chain Kinase Peptide Complex'                                                                       .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     104   no   PDB    2O60           .   'Calmodulin Bound To Peptide From Neuronal Nitric Oxide Synthase'                                                                   .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     105   no   PDB    2R28           .   'The Complex Structure Of Calmodulin Bound To A Calcineurin Peptide'                                                                .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     106   no   PDB    2V01           .   'Recombinant Vertebrate Calmodulin Complexed With Pb'                                                                               .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     107   no   PDB    2V02           .   'Recombinant Vertebrate Calmodulin Complexed With Ba'                                                                               .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     108   no   PDB    2VAS           .   'Myosin Vi (Md-Insert2-Cam, Delta-Insert1) Post-Rigor State'                                                                        .   .   .   .   .   100.00   149   97.30   99.32    1.39e-97    .   .   .   .   15188   1    
+     109   no   PDB    2VAY           .   'Calmodulin Complexed With Cav1.1 Iq Peptide'                                                                                       .   .   .   .   .   98.65    146   99.32   100.00   2.56e-98    .   .   .   .   15188   1    
+     110   no   PDB    2W73           .   'High-Resolution Structure Of The Complex Between Calmodulin And A Peptide From Calcineurin A'                                      .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     111   no   PDB    2WEL           .   'Crystal Structure Of Su6656-Bound CalciumCALMODULIN- Dependent Protein Kinase Ii Delta In Complex With Calmodulin'                 .   .   .   .   .   100.00   150   99.32   100.00   1.22e-99    .   .   .   .   15188   1    
+     112   no   PDB    2X0G           .   'X-ray Structure Of A Dap-kinase Calmodulin Complex'                                                                                .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     113   no   PDB    2X51           .   'M6 Delta Insert1'                                                                                                                  .   .   .   .   .   100.00   149   97.30   99.32    1.39e-97    .   .   .   .   15188   1    
+     114   no   PDB    2Y4V           .   'Crystal Structure Of Human Calmodulin In Complex With A Dap Kinase-1 Mutant (W305y) Peptide'                                       .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     115   no   PDB    2YGG           .   'Complex Of Cambr And Cam'                                                                                                          .   .   .   .   .   100.00   150   99.32   100.00   1.31e-99    .   .   .   .   15188   1    
+     116   no   PDB    3BXK           .   'Crystal Structure Of The PQ-Type Calcium Channel (Cav2.1) Iq Domain And Ca2+calmodulin Complex'                                    .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     117   no   PDB    3BXL           .   'Crystal Structure Of The R-Type Calcium Channel (Cav2.3) Iq Domain And Ca2+calmodulin Complex'                                     .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     118   no   PDB    3BYA           .   'Structure Of A Calmodulin Complex'                                                                                                 .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     119   no   PDB    3CLN           .   'Structure Of Calmodulin Refined At 2.2 Angstroms Resolution'                                                                       .   .   .   .   .   100.00   148   98.65   100.00   4.87e-99    .   .   .   .   15188   1    
+     120   no   PDB    3DVE           .   'Crystal Structure Of Ca2+CAM-Cav2.2 Iq Domain Complex'                                                                             .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     121   no   PDB    3DVJ           .   'Crystal Structure Of Ca2+CAM-Cav2.2 Iq Domain (Without Cloning Artifact, Hm To Tv) Complex'                                        .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     122   no   PDB    3DVK           .   'Crystal Structure Of Ca2+CAM-Cav2.3 Iq Domain Complex'                                                                             .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     123   no   PDB    3DVM           .   'Crystal Structure Of Ca2+CAM-Cav2.1 Iq Domain Complex'                                                                             .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     124   no   PDB    3EK4           .   'Calcium-saturated Gcamp2 Monomer'                                                                                                  .   .   .   .   .   99.32    449   99.32   100.00   2.38e-95    .   .   .   .   15188   1    
+     125   no   PDB    3EK7           .   'Calcium-Saturated Gcamp2 Dimer'                                                                                                    .   .   .   .   .   99.32    449   99.32   100.00   2.38e-95    .   .   .   .   15188   1    
+     126   no   PDB    3EK8           .   'Calcium-Saturated Gcamp2 T116vG87R MUTANT MONOMER'                                                                                 .   .   .   .   .   99.32    449   99.32   100.00   2.60e-95    .   .   .   .   15188   1    
+     127   no   PDB    3EKH           .   'Calcium-Saturated Gcamp2 T116vK378W MUTANT MONOMER'                                                                                .   .   .   .   .   99.32    449   98.64   99.32    2.40e-94    .   .   .   .   15188   1    
+     128   no   PDB    3EVU           .   'Crystal Structure Of Calcium Bound Dimeric Gcamp2, (#1)'                                                                           .   .   .   .   .   99.32    449   99.32   100.00   2.38e-95    .   .   .   .   15188   1    
+     129   no   PDB    3EVV           .   'Crystal Structure Of Calcium Bound Dimeric Gcamp2 (#2)'                                                                            .   .   .   .   .   99.32    449   99.32   100.00   2.38e-95    .   .   .   .   15188   1    
+     130   no   PDB    3EWT           .   'Crystal Structure Of Calmodulin Complexed With A Peptide'                                                                          .   .   .   .   .   100.00   154   99.32   100.00   5.04e-100   .   .   .   .   15188   1    
+     131   no   PDB    3EWV           .   'Crystal Structure Of Calmodulin Complexed With A Peptide'                                                                          .   .   .   .   .   100.00   154   99.32   100.00   5.04e-100   .   .   .   .   15188   1    
+     132   no   PDB    3G43           .   'Crystal Structure Of The Calmodulin-Bound Cav1.2 C-Terminal Regulatory Domain Dimer'                                               .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     133   no   PDB    3GN4           .   'Myosin Lever Arm'                                                                                                                  .   .   .   .   .   100.00   149   97.30   99.32    1.39e-97    .   .   .   .   15188   1    
+     134   no   PDB    3GOF           .   'Calmodulin Bound To Peptide From Macrophage Nitric Oxide Synthase'                                                                 .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     135   no   PDB    3HR4           .   'Human Inos Reductase And Calmodulin Complex'                                                                                       .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     136   no   PDB    3IF7           .   'Structure Of Calmodulin Complexed With Its First Endogenous Inhibitor, Sphingosylphosphorylcholine'                                .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     137   no   PDB    3J41           .   'Pseudo-atomic Model Of The Aquaporin-0/calmodulin Complex Derived From Electron Microscopy'                                        .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     138   no   PDB    3L9I           .   'Myosin Vi Nucleotide-Free (Mdinsert2) L310g Mutant Crystal Structure'                                                              .   .   .   .   .   100.00   149   97.30   99.32    1.39e-97    .   .   .   .   15188   1    
+     139   no   PDB    3O77           .   'The Structure Of Ca2+ Sensor (Case-16)'                                                                                            .   .   .   .   .   99.32    415   99.32   100.00   1.33e-95    .   .   .   .   15188   1    
+     140   no   PDB    3O78           .   'The Structure Of Ca2+ Sensor (Case-12)'                                                                                            .   .   .   .   .   99.32    415   99.32   100.00   1.31e-95    .   .   .   .   15188   1    
+     141   no   PDB    3OXQ           .   'Crystal Structure Of Ca2+CAM-Cav1.2 Pre-IqIQ DOMAIN COMPLEX'                                                                       .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     142   no   PDB    3SG2           .   'Crystal Structure Of Gcamp2-t116v,d381y'                                                                                           .   .   .   .   .   99.32    449   98.64   99.32    4.22e-94    .   .   .   .   15188   1    
+     143   no   PDB    3SG3           .   'Crystal Structure Of Gcamp3-d380y'                                                                                                 .   .   .   .   .   99.32    449   97.96   99.32    3.39e-93    .   .   .   .   15188   1    
+     144   no   PDB    3SG4           .   'Crystal Structure Of Gcamp3-d380y, Lp(linker 2)'                                                                                   .   .   .   .   .   100.00   448   97.30   98.65    2.28e-93    .   .   .   .   15188   1    
+     145   no   PDB    3SG5           .   'Crystal Structure Of Dimeric Gcamp3-d380y, Qp(linker 1), Lp(linker 2)'                                                             .   .   .   .   .   100.00   448   97.30   98.65    2.63e-93    .   .   .   .   15188   1    
+     146   no   PDB    3SG6           .   'Crystal Structure Of Dimeric Gcamp2-lia(linker 1)'                                                                                 .   .   .   .   .   99.32    450   99.32   100.00   2.76e-95    .   .   .   .   15188   1    
+     147   no   PDB    3SG7           .   'Crystal Structure Of Gcamp3-kf(linker 1)'                                                                                          .   .   .   .   .   99.32    448   98.64   100.00   2.47e-94    .   .   .   .   15188   1    
+     148   no   PDB    3SJQ           .   'Crystal Structure Of A Small Conductance Potassium Channel Splice Variant Complexed With Calcium-Calmodulin'                       .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     149   no   PDB    3SUI           .   'Crystal Structure Of Ca2+-Calmodulin In Complex With A Trpv1 C- Terminal Peptide'                                                  .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     150   no   PDB    3U0K           .   'Crystal Structure Of The Genetically Encoded Calcium Indicator Rcamp'                                                              .   .   .   .   .   99.32    440   97.96   99.32    6.88e-94    .   .   .   .   15188   1    
+     151   no   PDB    3WFN           .   'Crystal Structure Of Nav1.6 Iq Motif In Complex With Apo-cam'                                                                      .   .   .   .   .   100.00   182   99.32   100.00   1.67e-99    .   .   .   .   15188   1    
+     152   no   PDB    4ANJ           .   'Myosin Vi (Mdinsert2-Gfp Fusion) Pre-Powerstroke State (Mg.Adp.Alf4)'                                                              .   .   .   .   .   100.00   149   97.30   99.32    1.39e-97    .   .   .   .   15188   1    
+     153   no   PDB    4BW7           .   'Calmodulin In Complex With Strontium'                                                                                              .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     154   no   PDB    4BW8           .   'Calmodulin With Small Bend In Central Helix'                                                                                       .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     155   no   PDB    4BYF           .   'Crystal Structure Of Human Myosin 1c In Complex With Calmodulin In The Pre-power Stroke State'                                     .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     156   no   PDB    4CLN           .   'Structure Of A Recombinant Calmodulin From Drosophila Melanogaster Refined At 2.2-Angstroms Resolution'                            .   .   .   .   .   100.00   148   97.30   99.32    1.26e-97    .   .   .   .   15188   1    
+     157   no   PDB    4DBP           .   'Myosin Vi Nucleotide-free (mdinsert2) D179y Crystal Structure'                                                                     .   .   .   .   .   100.00   149   97.30   99.32    1.39e-97    .   .   .   .   15188   1    
+     158   no   PDB    4DBQ           .   'Myosin Vi D179y (md-insert2-cam, Delta-insert1) Post-rigor State'                                                                  .   .   .   .   .   100.00   149   97.30   99.32    1.39e-97    .   .   .   .   15188   1    
+     159   no   PDB    4DCK           .   'Crystal Structure Of The C-Terminus Of Voltage-Gated Sodium Channel In Complex With Fgf13 And Cam'                                 .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     160   no   PDB    4DJC           .   '1.35 A Crystal Structure Of The Nav1.5 Diii-Iv-CaCAM COMPLEX'                                                                      .   .   .   .   .   100.00   152   99.32   100.00   8.69e-100   .   .   .   .   15188   1    
+     161   no   PDB    4E50           .   'Calmodulin And Ng Peptide Complex'                                                                                                 .   .   .   .   .   100.00   185   99.32   100.00   6.90e-100   .   .   .   .   15188   1    
+     162   no   PDB    4EHQ           .   'Crystal Structure Of Calmodulin Binding Domain Of Orai1 In Complex With Ca2+CALMODULIN DISPLAYS A UNIQUE BINDING MODE'             .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     163   no   PDB    4G27           .   'Calcium-Calmodulin Complexed With The Calmodulin Binding Domain From A Small Conductance Potassium Channel Splice Variant And P'   .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     164   no   PDB    4G28           .   'Calcium-Calmodulin Complexed With The Calmodulin Binding Domain From A Small Conductance Potassium Channel Splice Variant And E'   .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     165   no   PDB    4HEX           .   'A Novel Conformation Of Calmodulin'                                                                                                .   .   .   .   .   100.00   156   99.32   100.00   5.39e-100   .   .   .   .   15188   1    
+     166   no   PDB    4IK1           .   'High Resolution Structure Of Gcampj At Ph 8.5'                                                                                     .   .   .   .   .   99.32    448   97.96   99.32    3.09e-93    .   .   .   .   15188   1    
+     167   no   PDB    4IK3           .   'High Resolution Structure Of Gcamp3 At Ph 8.5'                                                                                     .   .   .   .   .   99.32    448   98.64   100.00   2.21e-94    .   .   .   .   15188   1    
+     168   no   PDB    4IK4           .   'High Resolution Structure Of Gcamp3 At Ph 5.0'                                                                                     .   .   .   .   .   99.32    448   98.64   100.00   2.21e-94    .   .   .   .   15188   1    
+     169   no   PDB    4IK5           .   'High Resolution Structure Of Delta-rest-gcamp3'                                                                                    .   .   .   .   .   99.32    414   98.64   100.00   7.30e-95    .   .   .   .   15188   1    
+     170   no   PDB    4IK8           .   'High Resolution Structure Of Gcamp3 Dimer Form 1 At Ph 7.5'                                                                        .   .   .   .   .   99.32    448   98.64   100.00   2.21e-94    .   .   .   .   15188   1    
+     171   no   PDB    4IK9           .   'High Resolution Structure Of Gcamp3 Dimer Form 2 At Ph 7.5'                                                                        .   .   .   .   .   99.32    448   98.64   100.00   2.21e-94    .   .   .   .   15188   1    
+     172   no   PDB    4J9Y           .   'Calcium-calmodulin Complexed With The Calmodulin Binding Domain From A Small Conductance Potassium Channel Splice Variant'         .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     173   no   PDB    4J9Z           .   'Calcium-calmodulin Complexed With The Calmodulin Binding Domain From A Small Conductance Potassium Channel Splice Variant And N'   .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     174   no   PDB    4JPZ           .   'Voltage-gated Sodium Channel 1.2 C-terminal Domain In Complex With Fgf13u And Ca2+/calmodulin'                                     .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     175   no   PDB    4JQ0           .   'Voltage-gated Sodium Channel 1.5 C-terminal Domain In Complex With Fgf12b And Ca2+/calmodulin'                                     .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     176   no   PDB    4L79           .   'Crystal Structure Of Nucleotide-free Myosin 1b Residues 1-728 With Bound Calmodulin'                                               .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     177   no   PDB    4LZX           .   'Complex Of Iqcg And Ca2+-free Cam'                                                                                                 .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     178   no   PDB    4M1L           .   'Complex Of Iqcg And Ca2+-bound Cam'                                                                                                .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     179   no   PDB    4Q5U           .   'Structure Of Calmodulin Bound To Its Recognition Site From Calcineurin'                                                            .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     180   no   PDB    4QNH           .   'Calcium-calmodulin (t79d) Complexed With The Calmodulin Binding Domain From A Small Conductance Potassium Channel Sk2-a'           .   .   .   .   .   100.00   149   98.65   99.32    1.48e-98    .   .   .   .   15188   1    
+     181   no   PDB    4R8G           .   'Crystal Structure Of Myosin-1c Tail In Complex With Calmodulin'                                                                    .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     182   no   PDB    4UMO           .   'Crystal Structure Of The Kv7.1 Proximal C-terminal Domain In Complex With Calmodulin'                                              .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     183   no   PDB    4UPU           .   'Crystal Structure Of Ip3 3-k Calmodulin Binding Region In Complex With Calmodulin'                                                 .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     184   no   PDB    4V0C           .   'Crystal Structure Of The Kv7.1 Proximal C-terminal Domain In Complex With Calmodulin'                                              .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     185   no   DBJ    BAA08302       .   'calmodulin [Homo sapiens]'                                                                                                         .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     186   no   DBJ    BAA11896       .   'calmodulin [Anas platyrhynchos]'                                                                                                   .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     187   no   DBJ    BAA19786       .   'calmodulin [Branchiostoma lanceolatum]'                                                                                            .   .   .   .   .   100.00   149   97.30   99.32    1.39e-97    .   .   .   .   15188   1    
+     188   no   DBJ    BAA19787       .   'calmodulin [Branchiostoma floridae]'                                                                                               .   .   .   .   .   100.00   149   97.30   99.32    1.39e-97    .   .   .   .   15188   1    
+     189   no   DBJ    BAA19788       .   'calmodulin [Halocynthia roretzi]'                                                                                                  .   .   .   .   .   100.00   149   97.30   99.32    1.39e-97    .   .   .   .   15188   1    
+     190   no   EMBL   CAA10601       .   'calmodulin [Caenorhabditis elegans]'                                                                                               .   .   .   .   .   100.00   149   97.30   98.65    3.64e-97    .   .   .   .   15188   1    
+     191   no   EMBL   CAA32050       .   'calmodulin [Rattus norvegicus]'                                                                                                    .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     192   no   EMBL   CAA32062       .   'calmodulin II [Rattus norvegicus]'                                                                                                 .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     193   no   EMBL   CAA32119       .   'calmodulin [Rattus norvegicus]'                                                                                                    .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     194   no   EMBL   CAA32120       .   'calmodulin [Rattus norvegicus]'                                                                                                    .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     195   no   GB     AAA35635       .   'calmodulin [Homo sapiens]'                                                                                                         .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     196   no   GB     AAA35641       .   'calmodulin [Homo sapiens]'                                                                                                         .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     197   no   GB     AAA37365       .   'calmodulin synthesis [Mus musculus]'                                                                                               .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     198   no   GB     AAA40862       .   'calmodulin [Rattus norvegicus]'                                                                                                    .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     199   no   GB     AAA40863       .   'calmodulin [Rattus norvegicus]'                                                                                                    .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     200   no   PIR    JC1305         .   'calmodulin - Japanese medaka'                                                                                                      .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     201   no   PIR    MCON           .   'calmodulin - salmon'                                                                                                               .   .   .   .   .   100.00   148   99.32   100.00   9.77e-100   .   .   .   .   15188   1    
+     202   no   PRF    0608335A       .   calmodulin                                                                                                                          .   .   .   .   .   100.00   148   97.30   99.32    7.24e-97    .   .   .   .   15188   1    
+     203   no   REF    NP_001008160   .   'calmodulin [Xenopus (Silurana) tropicalis]'                                                                                        .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     204   no   REF    NP_001009759   .   'calmodulin [Ovis aries]'                                                                                                           .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     205   no   REF    NP_001039714   .   'calmodulin [Bos taurus]'                                                                                                           .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     206   no   REF    NP_001040234   .   'calmodulin [Bombyx mori]'                                                                                                          .   .   .   .   .   100.00   149   97.30   99.32    1.39e-97    .   .   .   .   15188   1    
+     207   no   REF    NP_001080864   .   'calmodulin [Xenopus laevis]'                                                                                                       .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     208   no   SP     O16305         .   'RecName: Full=Calmodulin; Short=CaM'                                                                                               .   .   .   .   .   100.00   149   97.30   98.65    3.64e-97    .   .   .   .   15188   1    
+     209   no   SP     P02594         .   'RecName: Full=Calmodulin; Short=CaM'                                                                                               .   .   .   .   .   100.00   149   98.65   100.00   4.32e-99    .   .   .   .   15188   1    
+     210   no   SP     P21251         .   'RecName: Full=Calmodulin; Short=CaM'                                                                                               .   .   .   .   .   100.00   149   97.97   99.32    2.92e-98    .   .   .   .   15188   1    
+     211   no   SP     P62144         .   'RecName: Full=Calmodulin; Short=CaM'                                                                                               .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     212   no   SP     P62145         .   'RecName: Full=Calmodulin; Short=CaM [Aplysia californica]'                                                                         .   .   .   .   .   100.00   149   97.30   99.32    1.39e-97    .   .   .   .   15188   1    
+     213   no   TPG    DAA13808       .   'TPA: calmodulin 2-like [Bos taurus]'                                                                                               .   .   .   .   .   100.00   216   97.97   98.65    5.96e-98    .   .   .   .   15188   1    
+     214   no   TPG    DAA18029       .   'TPA: calmodulin [Bos taurus]'                                                                                                      .   .   .   .   .   100.00   149   97.97   99.32    2.32e-98    .   .   .   .   15188   1    
+     215   no   TPG    DAA19590       .   'TPA: calmodulin 3 [Bos taurus]'                                                                                                    .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     216   no   TPG    DAA24777       .   'TPA: calmodulin 2-like [Bos taurus]'                                                                                               .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+     217   no   TPG    DAA24988       .   'TPA: calmodulin 2-like isoform 1 [Bos taurus]'                                                                                     .   .   .   .   .   100.00   149   99.32   100.00   1.23e-99    .   .   .   .   15188   1    
+
+   stop_
+
+   loop_
+      _Entity_biological_function.Biological_function
+      _Entity_biological_function.Entry_ID
+      _Entity_biological_function.Entity_ID
+
+     'Ca2+-binding protein'   15188   1    
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1     .   ALA   .   15188   1    
+     2     .   ASP   .   15188   1    
+     3     .   GLN   .   15188   1    
+     4     .   LEU   .   15188   1    
+     5     .   THR   .   15188   1    
+     6     .   GLU   .   15188   1    
+     7     .   GLU   .   15188   1    
+     8     .   GLN   .   15188   1    
+     9     .   ILE   .   15188   1    
+     10    .   ALA   .   15188   1    
+     11    .   GLU   .   15188   1    
+     12    .   PHE   .   15188   1    
+     13    .   LYS   .   15188   1    
+     14    .   GLU   .   15188   1    
+     15    .   ALA   .   15188   1    
+     16    .   PHE   .   15188   1    
+     17    .   SER   .   15188   1    
+     18    .   LEU   .   15188   1    
+     19    .   PHE   .   15188   1    
+     20    .   ASP   .   15188   1    
+     21    .   LYS   .   15188   1    
+     22    .   ASP   .   15188   1    
+     23    .   GLY   .   15188   1    
+     24    .   ASP   .   15188   1    
+     25    .   GLY   .   15188   1    
+     26    .   THR   .   15188   1    
+     27    .   ILE   .   15188   1    
+     28    .   THR   .   15188   1    
+     29    .   THR   .   15188   1    
+     30    .   LYS   .   15188   1    
+     31    .   GLU   .   15188   1    
+     32    .   LEU   .   15188   1    
+     33    .   GLY   .   15188   1    
+     34    .   THR   .   15188   1    
+     35    .   VAL   .   15188   1    
+     36    .   MET   .   15188   1    
+     37    .   ARG   .   15188   1    
+     38    .   SER   .   15188   1    
+     39    .   LEU   .   15188   1    
+     40    .   GLY   .   15188   1    
+     41    .   GLN   .   15188   1    
+     42    .   ASN   .   15188   1    
+     43    .   PRO   .   15188   1    
+     44    .   THR   .   15188   1    
+     45    .   GLU   .   15188   1    
+     46    .   ALA   .   15188   1    
+     47    .   GLU   .   15188   1    
+     48    .   LEU   .   15188   1    
+     49    .   GLN   .   15188   1    
+     50    .   ASP   .   15188   1    
+     51    .   MET   .   15188   1    
+     52    .   ILE   .   15188   1    
+     53    .   ASN   .   15188   1    
+     54    .   GLU   .   15188   1    
+     55    .   VAL   .   15188   1    
+     56    .   ASP   .   15188   1    
+     57    .   ALA   .   15188   1    
+     58    .   ASP   .   15188   1    
+     59    .   GLY   .   15188   1    
+     60    .   ASN   .   15188   1    
+     61    .   GLY   .   15188   1    
+     62    .   THR   .   15188   1    
+     63    .   ILE   .   15188   1    
+     64    .   ASP   .   15188   1    
+     65    .   PHE   .   15188   1    
+     66    .   PRO   .   15188   1    
+     67    .   GLU   .   15188   1    
+     68    .   PHE   .   15188   1    
+     69    .   LEU   .   15188   1    
+     70    .   THR   .   15188   1    
+     71    .   MET   .   15188   1    
+     72    .   MET   .   15188   1    
+     73    .   ALA   .   15188   1    
+     74    .   ARG   .   15188   1    
+     75    .   LYS   .   15188   1    
+     76    .   MET   .   15188   1    
+     77    .   LYS   .   15188   1    
+     78    .   ASP   .   15188   1    
+     79    .   THR   .   15188   1    
+     80    .   ASP   .   15188   1    
+     81    .   SER   .   15188   1    
+     82    .   GLU   .   15188   1    
+     83    .   GLU   .   15188   1    
+     84    .   GLU   .   15188   1    
+     85    .   ILE   .   15188   1    
+     86    .   ARG   .   15188   1    
+     87    .   GLU   .   15188   1    
+     88    .   ALA   .   15188   1    
+     89    .   PHE   .   15188   1    
+     90    .   ARG   .   15188   1    
+     91    .   VAL   .   15188   1    
+     92    .   PHE   .   15188   1    
+     93    .   ASP   .   15188   1    
+     94    .   LYS   .   15188   1    
+     95    .   ASP   .   15188   1    
+     96    .   GLY   .   15188   1    
+     97    .   ASN   .   15188   1    
+     98    .   GLY   .   15188   1    
+     99    .   TYR   .   15188   1    
+     100   .   ILE   .   15188   1    
+     101   .   SER   .   15188   1    
+     102   .   ALA   .   15188   1    
+     103   .   ALA   .   15188   1    
+     104   .   GLU   .   15188   1    
+     105   .   LEU   .   15188   1    
+     106   .   ARG   .   15188   1    
+     107   .   HIS   .   15188   1    
+     108   .   VAL   .   15188   1    
+     109   .   MET   .   15188   1    
+     110   .   THR   .   15188   1    
+     111   .   ASN   .   15188   1    
+     112   .   LEU   .   15188   1    
+     113   .   GLY   .   15188   1    
+     114   .   GLU   .   15188   1    
+     115   .   LYS   .   15188   1    
+     116   .   LEU   .   15188   1    
+     117   .   THR   .   15188   1    
+     118   .   ASP   .   15188   1    
+     119   .   GLU   .   15188   1    
+     120   .   GLN   .   15188   1    
+     121   .   VAL   .   15188   1    
+     122   .   ASP   .   15188   1    
+     123   .   GLU   .   15188   1    
+     124   .   MET   .   15188   1    
+     125   .   ILE   .   15188   1    
+     126   .   ARG   .   15188   1    
+     127   .   GLU   .   15188   1    
+     128   .   ALA   .   15188   1    
+     129   .   ASP   .   15188   1    
+     130   .   ILE   .   15188   1    
+     131   .   ASP   .   15188   1    
+     132   .   GLY   .   15188   1    
+     133   .   ASP   .   15188   1    
+     134   .   GLY   .   15188   1    
+     135   .   GLN   .   15188   1    
+     136   .   VAL   .   15188   1    
+     137   .   ASN   .   15188   1    
+     138   .   TYR   .   15188   1    
+     139   .   GLU   .   15188   1    
+     140   .   GLU   .   15188   1    
+     141   .   PHE   .   15188   1    
+     142   .   VAL   .   15188   1    
+     143   .   GLN   .   15188   1    
+     144   .   MET   .   15188   1    
+     145   .   MET   .   15188   1    
+     146   .   THR   .   15188   1    
+     147   .   ALA   .   15188   1    
+     148   .   LYS   .   15188   1    
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+     .   ALA   1     1     15188   1    
+     .   ASP   2     2     15188   1    
+     .   GLN   3     3     15188   1    
+     .   LEU   4     4     15188   1    
+     .   THR   5     5     15188   1    
+     .   GLU   6     6     15188   1    
+     .   GLU   7     7     15188   1    
+     .   GLN   8     8     15188   1    
+     .   ILE   9     9     15188   1    
+     .   ALA   10    10    15188   1    
+     .   GLU   11    11    15188   1    
+     .   PHE   12    12    15188   1    
+     .   LYS   13    13    15188   1    
+     .   GLU   14    14    15188   1    
+     .   ALA   15    15    15188   1    
+     .   PHE   16    16    15188   1    
+     .   SER   17    17    15188   1    
+     .   LEU   18    18    15188   1    
+     .   PHE   19    19    15188   1    
+     .   ASP   20    20    15188   1    
+     .   LYS   21    21    15188   1    
+     .   ASP   22    22    15188   1    
+     .   GLY   23    23    15188   1    
+     .   ASP   24    24    15188   1    
+     .   GLY   25    25    15188   1    
+     .   THR   26    26    15188   1    
+     .   ILE   27    27    15188   1    
+     .   THR   28    28    15188   1    
+     .   THR   29    29    15188   1    
+     .   LYS   30    30    15188   1    
+     .   GLU   31    31    15188   1    
+     .   LEU   32    32    15188   1    
+     .   GLY   33    33    15188   1    
+     .   THR   34    34    15188   1    
+     .   VAL   35    35    15188   1    
+     .   MET   36    36    15188   1    
+     .   ARG   37    37    15188   1    
+     .   SER   38    38    15188   1    
+     .   LEU   39    39    15188   1    
+     .   GLY   40    40    15188   1    
+     .   GLN   41    41    15188   1    
+     .   ASN   42    42    15188   1    
+     .   PRO   43    43    15188   1    
+     .   THR   44    44    15188   1    
+     .   GLU   45    45    15188   1    
+     .   ALA   46    46    15188   1    
+     .   GLU   47    47    15188   1    
+     .   LEU   48    48    15188   1    
+     .   GLN   49    49    15188   1    
+     .   ASP   50    50    15188   1    
+     .   MET   51    51    15188   1    
+     .   ILE   52    52    15188   1    
+     .   ASN   53    53    15188   1    
+     .   GLU   54    54    15188   1    
+     .   VAL   55    55    15188   1    
+     .   ASP   56    56    15188   1    
+     .   ALA   57    57    15188   1    
+     .   ASP   58    58    15188   1    
+     .   GLY   59    59    15188   1    
+     .   ASN   60    60    15188   1    
+     .   GLY   61    61    15188   1    
+     .   THR   62    62    15188   1    
+     .   ILE   63    63    15188   1    
+     .   ASP   64    64    15188   1    
+     .   PHE   65    65    15188   1    
+     .   PRO   66    66    15188   1    
+     .   GLU   67    67    15188   1    
+     .   PHE   68    68    15188   1    
+     .   LEU   69    69    15188   1    
+     .   THR   70    70    15188   1    
+     .   MET   71    71    15188   1    
+     .   MET   72    72    15188   1    
+     .   ALA   73    73    15188   1    
+     .   ARG   74    74    15188   1    
+     .   LYS   75    75    15188   1    
+     .   MET   76    76    15188   1    
+     .   LYS   77    77    15188   1    
+     .   ASP   78    78    15188   1    
+     .   THR   79    79    15188   1    
+     .   ASP   80    80    15188   1    
+     .   SER   81    81    15188   1    
+     .   GLU   82    82    15188   1    
+     .   GLU   83    83    15188   1    
+     .   GLU   84    84    15188   1    
+     .   ILE   85    85    15188   1    
+     .   ARG   86    86    15188   1    
+     .   GLU   87    87    15188   1    
+     .   ALA   88    88    15188   1    
+     .   PHE   89    89    15188   1    
+     .   ARG   90    90    15188   1    
+     .   VAL   91    91    15188   1    
+     .   PHE   92    92    15188   1    
+     .   ASP   93    93    15188   1    
+     .   LYS   94    94    15188   1    
+     .   ASP   95    95    15188   1    
+     .   GLY   96    96    15188   1    
+     .   ASN   97    97    15188   1    
+     .   GLY   98    98    15188   1    
+     .   TYR   99    99    15188   1    
+     .   ILE   100   100   15188   1    
+     .   SER   101   101   15188   1    
+     .   ALA   102   102   15188   1    
+     .   ALA   103   103   15188   1    
+     .   GLU   104   104   15188   1    
+     .   LEU   105   105   15188   1    
+     .   ARG   106   106   15188   1    
+     .   HIS   107   107   15188   1    
+     .   VAL   108   108   15188   1    
+     .   MET   109   109   15188   1    
+     .   THR   110   110   15188   1    
+     .   ASN   111   111   15188   1    
+     .   LEU   112   112   15188   1    
+     .   GLY   113   113   15188   1    
+     .   GLU   114   114   15188   1    
+     .   LYS   115   115   15188   1    
+     .   LEU   116   116   15188   1    
+     .   THR   117   117   15188   1    
+     .   ASP   118   118   15188   1    
+     .   GLU   119   119   15188   1    
+     .   GLN   120   120   15188   1    
+     .   VAL   121   121   15188   1    
+     .   ASP   122   122   15188   1    
+     .   GLU   123   123   15188   1    
+     .   MET   124   124   15188   1    
+     .   ILE   125   125   15188   1    
+     .   ARG   126   126   15188   1    
+     .   GLU   127   127   15188   1    
+     .   ALA   128   128   15188   1    
+     .   ASP   129   129   15188   1    
+     .   ILE   130   130   15188   1    
+     .   ASP   131   131   15188   1    
+     .   GLY   132   132   15188   1    
+     .   ASP   133   133   15188   1    
+     .   GLY   134   134   15188   1    
+     .   GLN   135   135   15188   1    
+     .   VAL   136   136   15188   1    
+     .   ASN   137   137   15188   1    
+     .   TYR   138   138   15188   1    
+     .   GLU   139   139   15188   1    
+     .   GLU   140   140   15188   1    
+     .   PHE   141   141   15188   1    
+     .   VAL   142   142   15188   1    
+     .   GLN   143   143   15188   1    
+     .   MET   144   144   15188   1    
+     .   MET   145   145   15188   1    
+     .   THR   146   146   15188   1    
+     .   ALA   147   147   15188   1    
+     .   LYS   148   148   15188   1    
+
+   stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category   natural_source
+   _Entity_natural_src_list.Sf_framecode  natural_source
+   _Entity_natural_src_list.Entry_ID      15188
+   _Entity_natural_src_list.ID            1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+     1   1   $calmodulin   .   9031   organism   .   'Gallus gallus'   chicken   .   .   Eukaryota   Metazoa   Gallus   gallus   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category   experimental_source
+   _Entity_experimental_src_list.Sf_framecode  experimental_source
+   _Entity_experimental_src_list.Entry_ID      15188
+   _Entity_experimental_src_list.ID            1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+     1   1   $calmodulin   .   'recombinant technology'   'Escherichia coli'   .   .   .   Escherichia   coli   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   pET   .   .   .   .   .   .   15188   1    
+
+   stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                     sample
+   _Sample.Sf_framecode                    sample_1
+   _Sample.Entry_ID                        15188
+   _Sample.ID                              1
+   _Sample.Type                            solution
+   _Sample.Sub_type                        .
+   _Sample.Details                         'Uniform 15N labeled CaM for backbone relaxation experiments'
+   _Sample.Aggregate_sample_number         .
+   _Sample.Solvent_system                  '95% H2O/5% D2O'
+   _Sample.Preparation_date                .
+   _Sample.Preparation_expiration_date     .
+   _Sample.Polycrystallization_protocol    .
+   _Sample.Single_crystal_protocol         .
+   _Sample.Crystal_grow_apparatus          .
+   _Sample.Crystal_grow_atmosphere         .
+   _Sample.Crystal_grow_details            .
+   _Sample.Crystal_grow_method             .
+   _Sample.Crystal_grow_method_cit_ID      .
+   _Sample.Crystal_grow_pH                 .
+   _Sample.Crystal_grow_pH_range           .
+   _Sample.Crystal_grow_pressure           .
+   _Sample.Crystal_grow_pressure_esd       .
+   _Sample.Crystal_grow_seeding            .
+   _Sample.Crystal_grow_seeding_cit_ID     .
+   _Sample.Crystal_grow_temp               .
+   _Sample.Crystal_grow_temp_details       .
+   _Sample.Crystal_grow_temp_esd           .
+   _Sample.Crystal_grow_time               .
+   _Sample.Oriented_sample_prep_protocol   .
+   _Sample.Lyophilization_cryo_protectant  .
+   _Sample.Storage_protocol                .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   calmodulin             '[U-100% 15N]'        .   .   1   $calmodulin   .   .   1     .   .   mM   .   .   .   .   15188   1    
+     2   'potassium chloride'   'natural abundance'   .   .   .   .             .   .   100   .   .   mM   .   .   .   .   15188   1    
+     3   imidazole              'natural abundance'   .   .   .   .             .   .   20    .   .   mM   .   .   .   .   15188   1    
+     4   CaCl2                  'natural abundance'   .   .   .   .             .   .   6     .   .   mM   .   .   .   .   15188   1    
+     5   'sodium azide'         'natural abundance'   .   .   .   .             .   .   3     .   .   mM   .   .   .   .   15188   1    
+
+   stop_
+
+save_
+
+save_sample_2
+   _Sample.Sf_category                     sample
+   _Sample.Sf_framecode                    sample_2
+   _Sample.Entry_ID                        15188
+   _Sample.ID                              2
+   _Sample.Type                            solution
+   _Sample.Sub_type                        .
+   _Sample.Details                         'Uniform 15N/13C;55% 2H labeled CaM for methyl relaxation experiments'
+   _Sample.Aggregate_sample_number         .
+   _Sample.Solvent_system                  '95% H2O/5% D2O'
+   _Sample.Preparation_date                .
+   _Sample.Preparation_expiration_date     .
+   _Sample.Polycrystallization_protocol    .
+   _Sample.Single_crystal_protocol         .
+   _Sample.Crystal_grow_apparatus          .
+   _Sample.Crystal_grow_atmosphere         .
+   _Sample.Crystal_grow_details            .
+   _Sample.Crystal_grow_method             .
+   _Sample.Crystal_grow_method_cit_ID      .
+   _Sample.Crystal_grow_pH                 .
+   _Sample.Crystal_grow_pH_range           .
+   _Sample.Crystal_grow_pressure           .
+   _Sample.Crystal_grow_pressure_esd       .
+   _Sample.Crystal_grow_seeding            .
+   _Sample.Crystal_grow_seeding_cit_ID     .
+   _Sample.Crystal_grow_temp               .
+   _Sample.Crystal_grow_temp_details       .
+   _Sample.Crystal_grow_temp_esd           .
+   _Sample.Crystal_grow_time               .
+   _Sample.Oriented_sample_prep_protocol   .
+   _Sample.Lyophilization_cryo_protectant  .
+   _Sample.Storage_protocol                .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   calmodulin             '[U-100% 13C; U-100% 15N; 55% 2H]'   .   .   1   $calmodulin   .   .   1     .   .   mM   .   .   .   .   15188   2    
+     2   'potassium chloride'   'natural abundance'                  .   .   .   .             .   .   100   .   .   mM   .   .   .   .   15188   2    
+     3   imidazole              'natural abundance'                  .   .   .   .             .   .   20    .   .   mM   .   .   .   .   15188   2    
+     4   CaCl2                  'natural abundance'                  .   .   .   .             .   .   6     .   .   mM   .   .   .   .   15188   2    
+     5   'sodium azide'         'natural abundance'                  .   .   .   .             .   .   3     .   .   mM   .   .   .   .   15188   2    
+
+   stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category   sample_conditions
+   _Sample_condition_list.Sf_framecode  sample_conditions_1
+   _Sample_condition_list.Entry_ID      15188
+   _Sample_condition_list.ID            1
+   _Sample_condition_list.Details       '20mM imidazole, pH 6.5, 100mM KCl, 6mM CaCl2, 3 mM Na_azide'
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+     pH            6.5   .   pH    15188   1    
+     pressure      1     .   atm   15188   1    
+     temperature   308   .   K     15188   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_Felix
+   _Software.Sf_category   software
+   _Software.Sf_framecode  Felix
+   _Software.Entry_ID      15188
+   _Software.ID            1
+   _Software.Name          FELIX
+   _Software.Version       .
+   _Software.Details       .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Accelrys Software Inc.'   .   .   15188   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     processing   15188   1    
+
+   stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category     NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode    spectrometer_1
+   _NMR_spectrometer.Entry_ID        15188
+   _NMR_spectrometer.ID              1
+   _NMR_spectrometer.Details         .
+   _NMR_spectrometer.Manufacturer    Varian
+   _NMR_spectrometer.Model           INOVA
+   _NMR_spectrometer.Serial_number   .
+   _NMR_spectrometer.Field_strength  500
+
+save_
+
+save_spectrometer_2
+   _NMR_spectrometer.Sf_category     NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode    spectrometer_2
+   _NMR_spectrometer.Entry_ID        15188
+   _NMR_spectrometer.ID              2
+   _NMR_spectrometer.Details         .
+   _NMR_spectrometer.Manufacturer    Varian
+   _NMR_spectrometer.Model           INOVA
+   _NMR_spectrometer.Serial_number   .
+   _NMR_spectrometer.Field_strength  600
+
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category   NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode  NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID      15188
+   _NMR_spectrometer_list.ID            1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+     1   spectrometer_1   Varian   INOVA   .   500   .   .   .   15188   1    
+     2   spectrometer_2   Varian   INOVA   .   600   .   .   .   15188   1    
+
+   stop_
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category   experiment_list
+   _Experiment_list.Sf_framecode  experiment_list
+   _Experiment_list.Entry_ID      15188
+   _Experiment_list.ID            1
+   _Experiment_list.Details     
+;
+Backbone amide relation experiments T1, T2, NOE recorded as 1H-15N HSQCs.     
+     
+Methyl relaxation experiments IzCzDz, IzCzDy, and IzCz recorded as 1H-13C HSQCs
+;
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+     1   '2D 1H-15N HSQC'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     2   '2D 1H-15N HSQC'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     3   '2D 1H-13C HSQC'   no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     4   '2D 1H-13C HSQC'   no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+
+   stop_
+
+save_
+
+save_2D_1H-15N_HSQC
+   _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                   2D_1H-15N_HSQC
+   _NMR_spec_expt.Entry_ID                       15188
+   _NMR_spec_expt.ID                             1
+   _NMR_spec_expt.Name                           '2D 1H-15N HSQC'
+   _NMR_spec_expt.Type                           .
+   _NMR_spec_expt.Sample_volume                  .
+   _NMR_spec_expt.Sample_volume_units            uL
+   _NMR_spec_expt.NMR_tube_type                  .
+   _NMR_spec_expt.Sample_spinning_rate           .
+   _NMR_spec_expt.Sample_angle                   .
+   _NMR_spec_expt.NMR_spectrometer_ID            1
+   _NMR_spec_expt.NMR_spectrometer_label         $spectrometer_1
+   _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+   _NMR_spec_expt.NMR_spectrometer_probe_label   .
+   _NMR_spec_expt.Carrier_freq_switch_time       .
+   _NMR_spec_expt.Software_ID                    1
+   _NMR_spec_expt.Software_label                 $Felix
+   _NMR_spec_expt.Method_ID                      .
+   _NMR_spec_expt.Method_label                   .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+   _NMR_spec_expt.Details                        'T1 and T2 experiments were collected as 12 HSQC - 9 delay times, 3 of which were collected in duplicate.'
+
+save_
+
+save_2D_1H-13C_HSQC
+   _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                   2D_1H-13C_HSQC
+   _NMR_spec_expt.Entry_ID                       15188
+   _NMR_spec_expt.ID                             2
+   _NMR_spec_expt.Name                           '2D 1H-13C HSQC'
+   _NMR_spec_expt.Type                           .
+   _NMR_spec_expt.Sample_volume                  .
+   _NMR_spec_expt.Sample_volume_units            uL
+   _NMR_spec_expt.NMR_tube_type                  .
+   _NMR_spec_expt.Sample_spinning_rate           .
+   _NMR_spec_expt.Sample_angle                   .
+   _NMR_spec_expt.NMR_spectrometer_ID            1
+   _NMR_spec_expt.NMR_spectrometer_label         $spectrometer_1
+   _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+   _NMR_spec_expt.NMR_spectrometer_probe_label   .
+   _NMR_spec_expt.Carrier_freq_switch_time       .
+   _NMR_spec_expt.Software_ID                    1
+   _NMR_spec_expt.Software_label                 $Felix
+   _NMR_spec_expt.Method_ID                      .
+   _NMR_spec_expt.Method_label                   .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+   _NMR_spec_expt.Details                        'methyl relaxation experiments were collected as 11 HSQC - 9 delay times, 2 of which were collected in duplicate.'
+
+save_
+
+    ######################
+    #  Order parameters  #
+    ######################
+
+save_backbone_order_parameters
+   _Order_parameter_list.Sf_category                  order_parameters
+   _Order_parameter_list.Sf_framecode                 backbone_order_parameters
+   _Order_parameter_list.Entry_ID                     15188
+   _Order_parameter_list.ID                           1
+   _Order_parameter_list.Sample_condition_list_ID     1
+   _Order_parameter_list.Sample_condition_list_label  $sample_conditions_1
+   _Order_parameter_list.Tau_e_val_units              s
+   _Order_parameter_list.Tau_f_val_units              s
+   _Order_parameter_list.Tau_s_val_units              s
+   _Order_parameter_list.Rex_field_strength           .
+   _Order_parameter_list.Rex_val_units                .
+   _Order_parameter_list.Details                      'NMR derived backbone N-H bond vector model-free squared generalized order parameters for calcium-saturated CaM determined at 500 and 600 MHz (1H)'
+   _Order_parameter_list.Text_data_format             .
+   _Order_parameter_list.Text_data                    .
+
+   loop_
+      _Order_parameter_experiment.Experiment_ID
+      _Order_parameter_experiment.Experiment_name
+      _Order_parameter_experiment.Sample_ID
+      _Order_parameter_experiment.Sample_label
+      _Order_parameter_experiment.Sample_state
+      _Order_parameter_experiment.Entry_ID
+      _Order_parameter_experiment.Order_parameter_list_ID
+
+     1   '2D 1H-15N HSQC'   .   .   .   15188   1    
+
+   stop_
+
+   loop_
+      _Order_parameter_software.Software_ID
+      _Order_parameter_software.Software_label
+      _Order_parameter_software.Method_ID
+      _Order_parameter_software.Method_label
+      _Order_parameter_software.Entry_ID
+      _Order_parameter_software.Order_parameter_list_ID
+
+     1   $Felix   .   .   15188   1    
+
+   stop_
+
+   loop_
+      _Order_param.ID
+      _Order_param.Assembly_atom_ID
+      _Order_param.Entity_assembly_ID
+      _Order_param.Entity_ID
+      _Order_param.Comp_index_ID
+      _Order_param.Seq_ID
+      _Order_param.Comp_ID
+      _Order_param.Atom_ID
+      _Order_param.Atom_type
+      _Order_param.Atom_isotope_number
+      _Order_param.Order_param_val
+      _Order_param.Order_param_val_fit_err
+      _Order_param.Tau_e_val
+      _Order_param.Tau_e_val_fit_err
+      _Order_param.Tau_f_val
+      _Order_param.Tau_f_val_fit_err
+      _Order_param.Tau_s_val
+      _Order_param.Tau_s_val_fit_err
+      _Order_param.Rex_val
+      _Order_param.Rex_val_fit_err
+      _Order_param.Model_free_sum_squared_errs
+      _Order_param.Model_fit
+      _Order_param.Sf2_val
+      _Order_param.Sf2_val_fit_err
+      _Order_param.Ss2_val
+      _Order_param.Ss2_val_fit_err
+      _Order_param.SH2_val
+      _Order_param.SH2_val_fit_err
+      _Order_param.SN2_val
+      _Order_param.SN2_val_fit_err
+      _Order_param.Resonance_ID
+      _Order_param.Auth_entity_assembly_ID
+      _Order_param.Auth_seq_ID
+      _Order_param.Auth_comp_ID
+      _Order_param.Auth_atom_ID
+      _Order_param.Entry_ID
+      _Order_param.Order_parameter_list_ID
+
+     1    .   1   1   4     4     LEU   N   N   15   0.636   0.005   1.10E-10   6.00E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     2    .   1   1   6     6     GLU   N   N   15   0.92    0.01    1.33E-10   1.07E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     3    .   1   1   7     7     GLU   N   N   15   0.929   0.003   5.67E-10   1.92E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     4    .   1   1   8     8     GLN   N   N   15   0.901   0.004   9.28E-10   1.59E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     5    .   1   1   13    13    LYS   N   N   15   0.967   0.004   3.37E-10   4.04E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     6    .   1   1   15    15    ALA   N   N   15   0.972   0.003   3.03E-10   6.01E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     7    .   1   1   16    16    PHE   N   N   15   0.967   0.015   8.22E-11   1.16E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     8    .   1   1   17    17    SER   N   N   15   0.981   0.005   3.03E-10   5.12E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     9    .   1   1   18    18    LEU   N   N   15   0.972   0.005   2.74E-10   6.29E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     10   .   1   1   19    19    PHE   N   N   15   1       0       5.00E-14   1.16E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     11   .   1   1   20    20    ASP   N   N   15   0.967   0.009   1.96E-10   8.61E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     12   .   1   1   21    21    LYS   N   N   15   0.896   0.011   8.61E-11   3.27E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     13   .   1   1   22    22    ASP   N   N   15   0.91    0.005   1.00E-09   1.74E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     14   .   1   1   24    24    ASP   N   N   15   0.934   0.005   1.00E-09   2.62E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     15   .   1   1   26    26    THR   N   N   15   0.962   0.005   4.52E-10   1.69E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     16   .   1   1   27    27    ILE   N   N   15   0.972   0.008   3.41E-10   1.19E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     17   .   1   1   28    28    THR   N   N   15   0.924   0.008   1.00E-09   0.00E+00   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     18   .   1   1   29    29    THR   N   N   15   0.934   0.007   1.00E-09   2.65E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     19   .   1   1   30    30    LYS   N   N   15   0.948   0.005   9.43E-10   3.79E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     20   .   1   1   32    32    LEU   N   N   15   0.915   0.007   1.00E-09   0.00E+00   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     21   .   1   1   33    33    GLY   N   N   15   0.901   0.007   1.00E-09   0.00E+00   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     22   .   1   1   34    34    THR   N   N   15   0.915   0.003   8.45E-10   1.77E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     23   .   1   1   35    35    VAL   N   N   15   0.91    0.006   1.00E-09   0.00E+00   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     24   .   1   1   37    37    ARG   N   N   15   0.905   0.006   1.00E-09   7.65E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     25   .   1   1   39    39    LEU   N   N   15   1       0       3.68E-10   0.00E+00   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     26   .   1   1   42    42    ASN   N   N   15   0.74    0.04    4.11E-11   2.32E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     27   .   1   1   46    46    ALA   N   N   15   0.896   0.005   1.00E-09   0.00E+00   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     28   .   1   1   47    47    GLU   N   N   15   0.948   0.005   2.04E-10   8.04E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     29   .   1   1   48    48    LEU   N   N   15   0.92    0.004   7.42E-10   2.71E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     30   .   1   1   52    52    ILE   N   N   15   0.943   0.004   8.37E-10   3.64E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     31   .   1   1   54    54    GLU   N   N   15   0.891   0       8.34E-10   3.91E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     32   .   1   1   57    57    ALA   N   N   15   0.74    0.01    3.53E-11   5.45E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     33   .   1   1   58    58    ASP   N   N   15   0.868   0.007   1.00E-09   3.18E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     34   .   1   1   61    61    GLY   N   N   15   0.929   0.006   9.59E-10   6.02E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     35   .   1   1   63    63    ILE   N   N   15   0.915   0.007   1.00E-09   2.33E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     36   .   1   1   64    64    ASP   N   N   15   0.896   0.008   1.00E-09   3.29E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     37   .   1   1   65    65    PHE   N   N   15   0.953   0.01    2.76E-10   1.02E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     38   .   1   1   68    68    PHE   N   N   15   0.924   0.007   1.00E-09   5.16E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     39   .   1   1   69    69    LEU   N   N   15   1       0.002   2.96E-10   7.98E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     40   .   1   1   70    70    THR   N   N   15   1       0       5.00E-14   4.20E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     41   .   1   1   78    78    ASP   N   N   15   0.731   0.019   1.53E-10   5.18E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     42   .   1   1   80    80    ASP   N   N   15   0.74    0.019   9.79E-11   2.36E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     43   .   1   1   81    81    SER   N   N   15   0.759   0.033   8.81E-11   4.40E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     44   .   1   1   84    84    GLU   N   N   15   0.91    0.015   8.61E-11   4.67E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     45   .   1   1   86    86    ARG   N   N   15   0.957   0.007   1.70E-10   7.37E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     46   .   1   1   89    89    PHE   N   N   15   0.967   0.005   2.51E-10   5.75E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     47   .   1   1   90    90    ARG   N   N   15   0.986   0.006   2.51E-10   8.88E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     48   .   1   1   91    91    VAL   N   N   15   0.939   0.005   2.45E-10   9.81E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     49   .   1   1   93    93    ASP   N   N   15   0.929   0.01    8.42E-11   3.92E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     50   .   1   1   94    94    LYS   N   N   15   0.896   0.009   6.46E-11   3.34E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     51   .   1   1   95    95    ASP   N   N   15   0.858   0.005   1.00E-09   0.00E+00   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     52   .   1   1   96    96    GLY   N   N   15   0.877   0.005   1.00E-09   1.35E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     53   .   1   1   99    99    TYR   N   N   15   0.896   0.005   1.00E-09   2.04E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     54   .   1   1   100   100   ILE   N   N   15   0.872   0.009   1.00E-09   5.23E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     55   .   1   1   101   101   SER   N   N   15   0.915   0.006   1.00E-09   7.97E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     56   .   1   1   102   102   ALA   N   N   15   0.877   0.005   1.00E-09   7.66E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     57   .   1   1   105   105   LEU   N   N   15   0.891   0.005   1.00E-09   0.00E+00   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     58   .   1   1   109   109   MET   N   N   15   0.967   0.004   3.62E-10   7.12E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     59   .   1   1   110   110   THR   N   N   15   0.882   0.005   1.00E-09   7.66E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     60   .   1   1   111   111   ASN   N   N   15   0.896   0.007   1.00E-09   7.71E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     61   .   1   1   114   114   GLU   N   N   15   0.783   0.011   1.00E-09   1.67E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     62   .   1   1   115   115   LYS   N   N   15   0.683   0.009   1.13E-10   1.12E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     63   .   1   1   116   116   LEU   N   N   15   0.655   0.005   6.66E-11   4.03E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     64   .   1   1   117   117   THR   N   N   15   0.839   0.03    8.61E-11   5.35E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     65   .   1   1   121   121   VAL   N   N   15   0.943   0.006   1.96E-10   1.04E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     66   .   1   1   125   125   ILE   N   N   15   0.929   0.007   1.21E-10   6.15E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     67   .   1   1   127   127   GLU   N   N   15   0.905   0.003   7.40E-10   8.15E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     68   .   1   1   128   128   ALA   N   N   15   0.915   0.009   9.20E-11   4.63E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     69   .   1   1   130   130   ILE   N   N   15   0.683   0.008   3.14E-11   3.62E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     70   .   1   1   131   131   ASP   N   N   15   0.863   0.005   1.00E-09   0.00E+00   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     71   .   1   1   133   133   ASP   N   N   15   0.92    0.01    7.83E-11   3.09E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     72   .   1   1   134   134   GLY   N   N   15   0.905   0.006   1.00E-09   3.59E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     73   .   1   1   135   135   GLN   N   N   15   0.887   0.004   1.00E-09   0.00E+00   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     74   .   1   1   136   136   VAL   N   N   15   0.877   0.008   1.00E-09   2.82E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     75   .   1   1   137   137   ASN   N   N   15   0.877   0.008   1.00E-09   1.36E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     76   .   1   1   140   140   GLU   N   N   15   0.915   0.005   1.00E-09   7.90E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     77   .   1   1   141   141   PHE   N   N   15   0.882   0.006   1.00E-09   0.00E+00   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     78   .   1   1   143   143   GLN   N   N   15   0.896   0.005   1.00E-09   1.36E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     79   .   1   1   145   145   MET   N   N   15   0.887   0.004   9.63E-10   1.36E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     80   .   1   1   146   146   THR   N   N   15   0.943   0.005   3.03E-10   1.01E-11   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     81   .   1   1   147   147   ALA   N   N   15   0.679   0.042   1.00E-09   4.29E-10   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+     82   .   1   1   148   148   LYS   N   N   15   0.646   0.004   5.00E-14   0.00E+00   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   1    
+
+   stop_
+
+save_
+
+save_methyl_order_parameters
+   _Order_parameter_list.Sf_category                  order_parameters
+   _Order_parameter_list.Sf_framecode                 methyl_order_parameters
+   _Order_parameter_list.Entry_ID                     15188
+   _Order_parameter_list.ID                           2
+   _Order_parameter_list.Sample_condition_list_ID     1
+   _Order_parameter_list.Sample_condition_list_label  $sample_conditions_1
+   _Order_parameter_list.Tau_e_val_units              s
+   _Order_parameter_list.Tau_f_val_units              s
+   _Order_parameter_list.Tau_s_val_units              s
+   _Order_parameter_list.Rex_field_strength           .
+   _Order_parameter_list.Rex_val_units                .
+   _Order_parameter_list.Details                      'NMR derived side-chain model-free squared generalized order parameters for the symmetry axis of methyl groups of calcium-saturated CaM  determined with relaxation data obtained at 500 and 600 MHz (1H).'
+   _Order_parameter_list.Text_data_format             .
+   _Order_parameter_list.Text_data                    .
+
+   loop_
+      _Order_parameter_experiment.Experiment_ID
+      _Order_parameter_experiment.Experiment_name
+      _Order_parameter_experiment.Sample_ID
+      _Order_parameter_experiment.Sample_label
+      _Order_parameter_experiment.Sample_state
+      _Order_parameter_experiment.Entry_ID
+      _Order_parameter_experiment.Order_parameter_list_ID
+
+     3   '2D 1H-13C HSQC'   .   .   .   15188   2    
+
+   stop_
+
+   loop_
+      _Order_parameter_software.Software_ID
+      _Order_parameter_software.Software_label
+      _Order_parameter_software.Method_ID
+      _Order_parameter_software.Method_label
+      _Order_parameter_software.Entry_ID
+      _Order_parameter_software.Order_parameter_list_ID
+
+     1   $Felix   .   .   15188   2    
+
+   stop_
+
+   loop_
+      _Order_param.ID
+      _Order_param.Assembly_atom_ID
+      _Order_param.Entity_assembly_ID
+      _Order_param.Entity_ID
+      _Order_param.Comp_index_ID
+      _Order_param.Seq_ID
+      _Order_param.Comp_ID
+      _Order_param.Atom_ID
+      _Order_param.Atom_type
+      _Order_param.Atom_isotope_number
+      _Order_param.Order_param_val
+      _Order_param.Order_param_val_fit_err
+      _Order_param.Tau_e_val
+      _Order_param.Tau_e_val_fit_err
+      _Order_param.Tau_f_val
+      _Order_param.Tau_f_val_fit_err
+      _Order_param.Tau_s_val
+      _Order_param.Tau_s_val_fit_err
+      _Order_param.Rex_val
+      _Order_param.Rex_val_fit_err
+      _Order_param.Model_free_sum_squared_errs
+      _Order_param.Model_fit
+      _Order_param.Sf2_val
+      _Order_param.Sf2_val_fit_err
+      _Order_param.Ss2_val
+      _Order_param.Ss2_val_fit_err
+      _Order_param.SH2_val
+      _Order_param.SH2_val_fit_err
+      _Order_param.SN2_val
+      _Order_param.SN2_val_fit_err
+      _Order_param.Resonance_ID
+      _Order_param.Auth_entity_assembly_ID
+      _Order_param.Auth_seq_ID
+      _Order_param.Auth_comp_ID
+      _Order_param.Auth_atom_ID
+      _Order_param.Entry_ID
+      _Order_param.Order_parameter_list_ID
+
+     1    .   1   1   4     4     LEU   CD1   C   13   0.412   0.018   4.90E-11   3.12E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     2    .   1   1   9     9     ILE   CD1   C   13   0.39    0.007   2.21E-11   6.58E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     3    .   1   1   9     9     ILE   CG2   C   13   0.786   0.018   2.71E-11   8.84E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     4    .   1   1   10    10    ALA   CB    C   13   0.793   0.016   3.84E-11   1.05E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     5    .   1   1   15    15    ALA   CB    C   13   0.934   0.042   6.47E-11   3.75E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     6    .   1   1   18    18    LEU   CD1   C   13   0.171   0.004   3.84E-11   6.50E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     7    .   1   1   18    18    LEU   CD2   C   13   0.256   0.004   3.84E-11   6.58E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     8    .   1   1   26    26    THR   CG2   C   13   0.489   0.008   9.55E-11   2.92E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     9    .   1   1   27    27    ILE   CG2   C   13   0.617   0.021   3.84E-11   1.79E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     10   .   1   1   29    29    THR   CG2   C   13   0.376   0.006   6.72E-11   1.93E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     11   .   1   1   32    32    LEU   CD1   C   13   0.32    0.006   3.33E-11   9.56E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     12   .   1   1   32    32    LEU   CD2   C   13   0.256   0.012   3.40E-11   2.15E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     13   .   1   1   35    35    VAL   CG2   C   13   0.687   0.017   2.58E-11   9.98E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     14   .   1   1   36    36    MET   CE    C   13   0.249   0.002   9.51E-12   2.67E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     15   .   1   1   51    51    MET   CE    C   13   0.171   0.005   9.51E-12   3.60E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     16   .   1   1   52    52    ILE   CD1   C   13   0.334   0.006   1.95E-11   6.52E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     17   .   1   1   52    52    ILE   CG2   C   13   0.673   0.017   4.03E-11   1.34E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     18   .   1   1   55    55    VAL   CG1   C   13   0.567   0.013   4.90E-11   1.46E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     19   .   1   1   55    55    VAL   CG2   C   13   0.567   0.013   4.09E-11   1.46E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     20   .   1   1   62    62    THR   CG2   C   13   0.793   0.033   1.10E-10   7.07E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     21   .   1   1   63    63    ILE   CD1   C   13   0.504   0.012   3.02E-11   1.09E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     22   .   1   1   63    63    ILE   CG2   C   13   0.715   0.021   2.71E-11   1.27E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     23   .   1   1   69    69    LEU   CD1   C   13   0.355   0.017   4.59E-11   3.08E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     24   .   1   1   70    70    THR   CG2   C   13   0.595   0.012   5.41E-11   1.48E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     25   .   1   1   71    71    MET   CE    C   13   0.164   0.004   8.26E-12   1.71E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     26   .   1   1   72    72    MET   CE    C   13   0.277   0.003   8.26E-12   2.57E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     27   .   1   1   76    76    MET   CE    C   13   0.094   0.003   8.88E-12   0.00E+00   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     28   .   1   1   85    85    ILE   CD1   C   13   0.32    0.005   2.52E-11   5.01E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     29   .   1   1   85    85    ILE   CG2   C   13   0.553   0.009   3.15E-11   8.48E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     30   .   1   1   88    88    ALA   CB    C   13   0.836   0.029   7.16E-11   3.62E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     31   .   1   1   91    91    VAL   CG1   C   13   0.68    0.015   5.03E-11   1.38E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     32   .   1   1   91    91    VAL   CG2   C   13   0.68    0.012   2.77E-11   7.57E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     33   .   1   1   100   100   ILE   CG2   C   13   0.737   0.022   3.40E-11   1.55E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     34   .   1   1   102   102   ALA   CB    C   13   0.949   0.025   3.71E-11   1.25E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     35   .   1   1   109   109   MET   CE    C   13   0.136   0.005   8.88E-12   5.14E-14   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     36   .   1   1   116   116   LEU   CD1   C   13   0.285   0.01    5.78E-11   3.32E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     37   .   1   1   116   116   LEU   CD2   C   13   0.299   0.005   3.52E-11   8.57E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     38   .   1   1   121   121   VAL   CG1   C   13   0.553   0.008   4.28E-11   9.93E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     39   .   1   1   121   121   VAL   CG2   C   13   0.553   0.009   3.71E-11   8.46E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     40   .   1   1   124   124   MET   CE    C   13   0.186   0.001   7.00E-12   3.17E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     41   .   1   1   125   125   ILE   CD1   C   13   0.207   0.003   2.90E-11   5.68E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     42   .   1   1   125   125   ILE   CG2   C   13   0.567   0.008   4.15E-11   9.56E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     43   .   1   1   128   128   ALA   CB    C   13   0.779   0.018   6.22E-11   2.04E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     44   .   1   1   130   130   ILE   CG1   C   13   0.327   0.005   2.71E-11   5.27E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     45   .   1   1   130   130   ILE   CG2   C   13   0.489   0.006   4.09E-11   7.22E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     46   .   1   1   136   136   VAL   CG2   C   13   0.723   0.018   4.65E-11   1.71E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     47   .   1   1   142   142   VAL   CG1   C   13   0.715   0.014   5.28E-11   1.50E-12   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     48   .   1   1   142   142   VAL   CG2   C   13   0.61    0.011   2.83E-11   7.52E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     49   .   1   1   144   144   MET   CE    C   13   0.115   0       9.51E-12   3.64E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     50   .   1   1   145   145   MET   CE    C   13   0.2     0.001   8.26E-12   4.18E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     51   .   1   1   146   146   THR   CG2   C   13   0.433   0.005   5.28E-11   9.68E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+     52   .   1   1   147   147   ALA   CB    C   13   0.327   0.005   4.21E-11   4.30E-13   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   15188   2    
+
+   stop_
+
+save_
