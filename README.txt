@@ -4,9 +4,8 @@ S-OPPE: Self-training Improves Prediction of NMR Order Parameters
 Overview
 --------
 S-OPPE is a machine-learning framework for predicting residue-level NMR order parameters (S²) in proteins.
-It begins with 26 proteins containing experimental S² measurements and expands the training set using a
-self-training strategy with 2755 unlabeled proteins. The framework iteratively refines teacher–student
-models and ultimately produces a robust S² prediction.
+It begins with 26 proteins containing experimental S² measurements and expands the training set using a self-training strategy with 2755 unlabeled proteins. 
+The framework iteratively refines teacher–student models and ultimately produces a robust S² prediction.
 
 Features
 --------
